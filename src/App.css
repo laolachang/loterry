@@ -1,0 +1,63 @@
+.app-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    .main-area {
+      display: flex;
+      flex: 1; /* Allow main area to grow and take available space */
+    }
+
+    .sidebar {
+      width: 300px;
+      padding: 20px;
+      border-right: 1px solid #eee;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .data-display,
+    .prediction-controls,
+    .prediction-results {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+    }
+
+    .prediction-controls {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .prediction-controls .input-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .prediction-controls label {
+      margin-bottom: 5px;
+    }
+
+    .prediction-controls input[type="number"] {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .chat-area {
+      padding: 20px;
+      border-top: 1px solid #eee;
+    }

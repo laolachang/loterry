@@ -1,0 +1,30 @@
+.prediction-results-container {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .prediction-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .prediction-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .red-balls {
+      color: red;
+      font-weight: bold;
+    }
+
+    .blue-ball {
+      color: blue;
+      font-weight: bold;
+    }

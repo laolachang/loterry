@@ -1,0 +1,30 @@
+.frequency-analysis-container {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .frequency-section {
+      margin-bottom: 20px;
+    }
+
+    .frequency-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .frequency-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .frequency-item .number {
+      font-weight: bold;
+    }
+
+    .frequency-item .frequency {
+      color: green;
+    }

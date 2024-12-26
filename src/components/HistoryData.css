@@ -1,0 +1,31 @@
+.history-data-container {
+      overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+    }
+
+    .history-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .history-table th,
+    .history-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center; /* Center the content */
+      white-space: nowrap; /* Prevent line breaks */
+    }
+
+    .history-table th {
+      background-color: #f2f2f2;
+    }
+
+    .history-table .red-balls {
+      color: red;
+      font-weight: bold;
+    }
+
+    .history-table .blue-ball {
+      color: blue;
+      font-weight: bold;
+    }

@@ -1,0 +1,13 @@
+{
+      "name": "lottery-prediction-api",
+      "version": "1.0.0",
+      "description": "Backend for lottery prediction application",
+      "main": "main.py",
+      "scripts": {
+        "start": "uvicorn main:app --reload"
+      },
+      "dependencies": {
+        "fastapi": "^0.109.0",
+        "uvicorn": "^0.27.0"
+      }
+    }
